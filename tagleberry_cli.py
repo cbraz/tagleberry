@@ -12,7 +12,9 @@ while True:
         exit() 
     if option == "r" or option == "l":
         user_dir = input("input directory to scan: ") 
-        scan.scandir(user_dir,option)
+        #bla = []
+        bla = scan.scandir(user_dir,option)
+        print(bla)
     else:
         print("invalid option!")
 

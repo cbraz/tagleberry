@@ -1,20 +1,28 @@
 from os import listdir
 from os.path import isfile, isdir, join
+import time
 
 
+# list all files in 'scan_dir' path, in local ("l") or recursive ("r") 'mode'
+# returns list of all files with full path relative to provided 'scan_dir'
 def scandir(scan_dir,mode):
-    dir_elements = []
-    for dir_elements in listdir(scan_dir):
-        dir_elements = join(scan_dir,dir_elements)
+
+    # get list of elements in 'scan_dir'
+    try:
+        file_list = listdir(scan_dir)
+    except OSError:
+        return 
+
+    # will store list of files found
+    result = []
+    for elements in file_list:
+        elements = join(scan_dir, elements)
         if mode == "l":
-            if isfile(dir_elements):
-                print("",dir_elements)
+            if isfile(elements):
+                result.append(elements)
         if mode == "r":
-            if isdir(dir_elements):
-                print("DIR: ",dir_elements)
-                scandir(dir_elements, mode)
-            if isfile(dir_elements):
-                print("",dir_elements)
- 
-
-
+            if isdir(elements):
+                result.extend(scandir(elements, mode))
+            if isfile(elements):
+                result.append(elements)
+    return result

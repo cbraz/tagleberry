@@ -22,7 +22,9 @@ while True:
         file_list = scan.scandir(user_dir,option)
         add_to_lib(file_list, library) 
     elif option == "p":
-        pprint(library)
+        #pprint(library)
+        for i in library:
+            print(i.path)
     else:
         print("invalid option!")
    

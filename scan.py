@@ -1,6 +1,5 @@
 from os import listdir
 from os.path import isfile, isdir, join
-import time
 
 
 # list all files in 'scan_dir' path, in local ("l") or recursive ("r") 'mode'

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 import scan
-from filelib import add_to_lib
+from filelib import add_to_lib, add_to_dict
 import FileData
 from pprint import pprint
 
 
-library = []
+file_dict = {}
 
 while True:
     print("options:\n\
@@ -20,11 +20,10 @@ while True:
     elif option == "r" or option == "l":
         user_dir = input("input directory to scan: ") 
         file_list = scan.scandir(user_dir,option)
-        add_to_lib(file_list, library) 
+        add_to_dict(file_list, file_dict)
     elif option == "p":
-        #pprint(library)
-        for i in library:
-            print(i.path)
+        for k, v in file_dict.items():
+            print("KEY:", k, "VALUE:", v)
     else:
         print("invalid option!")
    

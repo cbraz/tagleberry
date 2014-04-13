@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import scan
-from filelib import add_to_lib, add_to_dict
-import FileData
+from filedict import add_to_dict
+import FileMD
 import json
 
 file_dict = {}

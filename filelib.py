@@ -27,15 +27,15 @@ def add_to_dict(file_list, file_dict):
             file_dict[path] = new_file
 
 def is_path_in_dict(path, file_dict):
-    print("checking file", path)
+#    print("checking file", path)
     
     #try to get path from dict
     try:
         file_dict[path]
-        print("path exists") 
+#        print("path exists") 
         return True
     except KeyError:
-        print("path does not exist")
+#        print("path does not exist")
         return False
 
 

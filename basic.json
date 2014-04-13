@@ -1,0 +1,52 @@
+{
+  "/Users/celso/code/pitao/tagleberry/test/file4.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/file4.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/dir2/file2.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/dir2/file2.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/dir3/dir4/file5.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/dir3/dir4/file5.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/dir2/file1.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/dir2/file1.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/file1.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/file1.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/dir3/file3.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/dir3/file3.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/dir3/file1.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/dir3/file1.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/dir3/file2.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/dir3/file2.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/file2.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/file2.txt", 
+    "filehash": 0
+  }, 
+  "/Users/celso/code/pitao/tagleberry/test/dir1/file3.txt": {
+    "filesize": 0, 
+    "path": "/Users/celso/code/pitao/tagleberry/test/dir1/file3.txt", 
+    "filehash": 0
+  }
+}

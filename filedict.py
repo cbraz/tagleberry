@@ -23,7 +23,7 @@ def add_to_dict(file_list, file_dict):
         if is_path_in_dict(path, file_dict):
             pass
         else:
-            new_file = FileData(path)
+            new_file = FileMD(path)
             file_dict[path] = new_file
 
 def is_path_in_dict(path, file_dict):

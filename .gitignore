@@ -6,3 +6,7 @@ __pycache__/scan.cpython-33.pyc
 __pycache__/FileData.cpython-33.pyc
 
 __pycache__/filelib.cpython-33.pyc
+
+*.pyc
+
+*.pyc

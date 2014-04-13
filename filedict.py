@@ -1,11 +1,11 @@
-from FileData import FileData
+from FileMD import FileMD
 
 def add_to_lib(file_list, library):
     for path in file_list:
         if path_exists(path, library):
             pass
         else:
-            new_file = FileData(path)
+            new_file = FileMD(path)
             library.append(new_file)
         
 def path_exists(path, library):

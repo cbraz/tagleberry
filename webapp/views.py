@@ -10,7 +10,7 @@ import json
 @webapp.route('/index')
 def index():
     file_dict = {}
-    user_dir = '/Users/celso/code/pitao/tagleberry/test'
+    user_dir = '~/code/pitao/tagleberry/test'
     file_list = lib.scan.scandir(user_dir,'r')
     add_to_dict(file_list, file_dict)
     

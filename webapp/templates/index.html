@@ -1,0 +1,14 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}} - tagleberry</title>
+    {% else %}
+    <title>tagleberry</title>
+    {% endif %}
+  </head>
+  <body>
+    {% for k, v in file_dict.items() %}
+    <p>KEY: {{k}}<br>&nbsp;&nbsp;&nbsp;&nbsp; VALUES: <b>{{v}}</b></p>
+    {% endfor %}
+  </body>
+</html>

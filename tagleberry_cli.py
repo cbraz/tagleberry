@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-
-import scan
-from filedict import add_to_dict
-import FileMD
+import lib.scan
+from lib.filedict import add_to_dict
+import lib.FileMD
 import json
 
 file_dict = {}
@@ -35,7 +34,7 @@ while True:
         exit() 
     elif option == "r" or option == "l":
         user_dir = input("input directory to scan: ") 
-        file_list = scan.scandir(user_dir,option)
+        file_list = lib.scan.scandir(user_dir,option)
         add_to_dict(file_list, file_dict)
     elif option == "p":
         for k, v in file_dict.items():

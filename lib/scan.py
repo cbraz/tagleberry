@@ -1,6 +1,6 @@
 from os import listdir
 from os.path import isfile, isdir, join, realpath, getmtime, getsize, exists
-from FileMD import FileMD 
+from lib.FileMD import FileMD 
 import hashlib
 
 # list all files in 'scan_dir' path, in local ("l") or recursive ("r") 'mode'
